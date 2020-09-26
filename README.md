@@ -30,3 +30,6 @@ libpcap(package capture library):unix/linux平台下的网络数据包捕获函�
 libpcap主要功能包括:数据包捕获,发送,流量采集与统计,规则过滤等;
 
 原理:libpcap主要由三部分组成:网络分接头,数据包过滤器,用户api;它通过网络分接头监听和复制链路层网卡数据包;通过数据包过滤器过来中间层数据,匹配目标数据;用户api实现功能调用;
+
+
+gopackage 支持libpcap解析 https://cloud.tencent.com/developer/article/1478203
